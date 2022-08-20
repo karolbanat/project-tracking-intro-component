@@ -1,0 +1,22 @@
+.toggle-btn {
+	--width: 4.4rem;
+	display: inline-grid;
+	place-items: center;
+	width: var(--width);
+	aspect-ratio: 1;
+	background: none;
+	border: none;
+	cursor: pointer;
+
+	&__icon-close {
+		display: none;
+	}
+
+	&[data-expanded] &__icon-close {
+		display: block;
+	}
+
+	&[data-expanded] &__icon-open {
+		display: none;
+	}
+}

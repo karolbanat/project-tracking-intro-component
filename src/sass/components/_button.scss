@@ -1,0 +1,14 @@
+.button {
+	display: inline-flex;
+	padding: 1em 1.5em;
+	font-size: var(--fz-400);
+	font-weight: var(--fw-700);
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 1.1;
+	color: var(--clr-neutral-100);
+	background-color: var(--clr-primary-400);
+	border: none;
+	border-radius: var(--borr-300);
+	cursor: pointer;
+}
