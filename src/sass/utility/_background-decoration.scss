@@ -1,0 +1,15 @@
+.background-decoration {
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: -100;
+		width: 50%;
+		height: 50%;
+		background-color: var(--clr-neutral-300);
+		border-bottom-left-radius: var(--borr-700);
+	}
+}

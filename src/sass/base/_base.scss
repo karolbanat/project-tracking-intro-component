@@ -5,6 +5,10 @@ body {
 	color: var(--clr-neutral-600);
 }
 
+main {
+	overflow: hidden;
+}
+
 h1,
 h2 {
 	font-family: var(--ff-secondary);

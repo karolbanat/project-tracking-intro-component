@@ -5,7 +5,7 @@
 	display: none;
 	width: var(--width);
 	aspect-ratio: 1;
-	background-color: var(--clr-neutral-300);
+	background-color: var(--clr-neutral-400);
 	border-radius: 50%;
 
 	@include mixins.mq(small) {

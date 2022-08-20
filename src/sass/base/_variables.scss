@@ -1,5 +1,5 @@
 $breakpoints: (
-	small: 32em,
+	small: 40em,
 	medium: 48em,
 	large: 62em,
 );
@@ -22,11 +22,12 @@ $font-sizes: (
 		300: 1.4rem,
 		400: 1.6rem,
 		500: 1.8rem,
-		700: 3.2rem,
+		700: 4rem,
 	),
 	medium: (
+		300: 1.5rem,
 		400: 1.8rem,
-		700: 4.8rem,
+		700: 6.4rem,
 	),
 );
 
@@ -36,12 +37,26 @@ $font-weights: (
 );
 
 $border-radius: (
-	300: 0.8rem,
+	300: 0.6rem,
 	700: 8rem,
 	900: 100vmax,
 );
 
 $spacings: (
-	em: (),
-	rem: (),
+	em: (
+		100: 0.125em,
+		200: 0.5em,
+		300: 0.75em,
+		400: 1em,
+		450: 1.125em,
+		500: 1.5em,
+		600: 2em,
+		800: 4em,
+	),
+	rem: (
+		300: 2rem,
+		500: 4rem,
+		600: 6.4rem,
+		800: 8rem,
+	),
 );

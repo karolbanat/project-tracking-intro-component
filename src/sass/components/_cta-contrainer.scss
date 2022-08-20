@@ -1,0 +1,19 @@
+@use '../base/mixins';
+
+.cta-container {
+	--gap: var(--spacing-em-400);
+	--letter-spacing: 1px;
+	display: inline-flex;
+	align-items: center;
+	gap: var(--gap);
+	font-size: var(--fz-300);
+	font-family: var(--ff-secondary);
+	text-transform: uppercase;
+	letter-spacing: var(--letter-spacing);
+	color: var(--clr-neutral-400);
+
+	@include mixins.mq(medium) {
+		--gap: var(--spacing-em-500);
+		--letter-spacing: 3px;
+	}
+}

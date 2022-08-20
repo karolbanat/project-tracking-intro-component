@@ -5,16 +5,16 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: clamp(4rem, 5vw, 6.4rem);
-	padding-bottom: 1em;
-	margin-bottom: 6.4rem;
+	padding-top: clamp(var(--spacing-rem-500), 5vw, var(--spacing-rem-600));
+	padding-bottom: var(--spacing-em-400);
+	margin-bottom: clamp(var(--spacing-rem-600), 4rem + 5vw, 10rem);
+	font-family: var(--ff-secondary);
 
 	&__nav {
-		--gap: 1rem;
+		--gap: var(--spacing-rem-300);
 		display: flex;
-		justify-content: space-between;
-		align-items: flex-end;
-		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
 		gap: var(--gap);
 		width: 100%;
 
@@ -30,15 +30,8 @@
 			}
 		}
 
-		@include mixins.mq(small) {
-			--gap: 2rem;
-			flex-direction: row;
-			justify-content: flex-end;
-			align-items: center;
-		}
-
 		@include mixins.mq(medium) {
-			--gap: 4rem;
+			--gap: var(--spacing-rem-500);
 		}
 	}
 
