@@ -24,19 +24,64 @@
 </head>
 
 <body>
-    Product
-    Features
-    Pricing
-    Login
+    <div class="container">
+        <nav class="navigation">
+            <a aria-label="Home Page"
+               href="#">
+                <img src="./dist/images/logo.svg"
+                     alt="">
+            </a>
+            <button aria-label="Menu"
+                    aria-controls="priamry-nav"
+                    aria-expanded="false"
+                    class="toggle-btn">
+                <img src="./dist/images/icon-hamburger.svg"
+                     alt=""
+                     class="toggle-btn__open">
+                <img src="./dist/images/icon-close.svg"
+                     alt=""
+                     class="toggle-btn__close">
+            </button>
+            <div id="primary-nav"
+                 class="navigation__nav">
+                <ul class="navigation__nav-links">
+                    <li>
+                        <a href="#"
+                           class="link">Product</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="link">Pricing</a>
+                    </li>
+                </ul>
+                <a href="#"
+                   class="link link--secondary navigation__login-link">Login</a>
+            </div>
+        </nav>
 
-    New
-    Monograph Dashboard
+        <main>
+            <div class="container">
+                <section class="introduction">
+                    <header class="introduction-header">
+                        <p class="introduction-header__">Monograph Dashboard</p>
+                        <h1 class="introduction-header__heading">Powerful insights into your team</h1>
+                        <p class="introduction-header__text">Project planning and time tracking<br />for agile teams
+                        </p>
+                        <p class="cta-container"><a href="#"
+                               class="button">Schedule a demo</a> to see a live preview</p>
+                    </header>
+                    <img src="./dist/images/illustration-devices.svg"
+                         alt="Illustration of phone and computer with application mockups."
+                         class="introduction__image">
+                </section>
+            </div>
+        </main>
+    </div>
 
-    Powerful insights into your team
-    Project planning and time tracking for agile teams
-
-    Schedule a demo
-    to see a live preview
 </body>
 
 </html>
