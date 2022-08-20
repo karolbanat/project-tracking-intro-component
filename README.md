@@ -9,8 +9,8 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 
 ## Links
 
-- Solution URL: [Frontend Mentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages Site](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/project-tracking-intro-component-50_UC09SJr)
+- Live Site URL: [GitHub Pages Site](https://karolbanat.github.io/project-tracking-intro-component/)
 
 ## Built with
 
